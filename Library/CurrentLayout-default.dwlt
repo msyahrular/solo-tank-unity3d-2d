@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1366
     height: 725
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -379,22 +379,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/Karakter
+    - Assets/Script
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 71
   m_LastFolders:
-  - Assets/Scenes/Karakter
+  - Assets/Script
   m_LastFoldersGridSize: 71
   m_LastProjectPath: D:\Documents\Unity\Unity Project\Solo Tank\Solo Tank
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 41}
-    m_SelectedIDs: d4460000
-    m_LastClickedID: 18132
-    m_ExpandedIDs: 00000000c6460000ca460000d0460000d246000000ca9a3b
+    scrollPos: {x: 0, y: 393}
+    m_SelectedIDs: cc460000
+    m_LastClickedID: 18124
+    m_ExpandedIDs: 00000000c6460000ca460000d0460000d2460000e64600006c47000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -542,10 +542,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 48}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 66fbffff40440000584500001c460000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: b8f9ffff
+      m_LastClickedID: -1608
+      m_ExpandedIDs: 94f9ffffa0f9ffffacf9ffffb8f9ffff66fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -605,9 +605,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.4875164, y: -0.38240358, z: -6.1233625}
+    m_Target: {x: -1.1395086, y: 0.2900775, z: -5.916346}
     speed: 2
-    m_Value: {x: -6.4875164, y: -0.38240358, z: -6.1233625}
+    m_Value: {x: -1.1395086, y: 0.2900775, z: -5.916346}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -658,9 +658,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.4310168
+    m_Target: 4.1471963
     speed: 2
-    m_Value: 1.4310168
+    m_Value: 4.1471963
   m_Ortho:
     m_Target: 1
     speed: 2
