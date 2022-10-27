@@ -39,11 +39,17 @@
      <Compile Include="Assets\Script\Turret.cs" />
      <Compile Include="Assets\Script\gerak.cs" />
      <Compile Include="Assets\Script\Bullet.cs" />
+     <Compile Include="Assets\Script\DestroyUtil.cs" />
      <Compile Include="Assets\Script\TankMover.cs" />
      <Compile Include="Assets\Script\Damageable.cs" />
      <Compile Include="Assets\Script\TankController.cs" />
+     <Compile Include="Assets\Script\ObjectPool.cs" />
      <Compile Include="Assets\Script\PlayerInput.cs" />
      <Compile Include="Assets\Script\AimTurret.cs" />
+     <Compile Include="Assets\Script\DestroyIfDisabled.cs" />
+     <Compile Include="Assets\Script\DataSO\TankMovementData.cs" />
+     <Compile Include="Assets\Script\DataSO\BulletData.cs" />
+     <Compile Include="Assets\Script\DataSO\TurretData.cs" />
      <None Include="Assets\Scenes\tank 1\TXT\readme.txt" />
      <None Include="Assets\Scenes\Tank 2\TXT\license.txt" />
      <None Include="Assets\Scenes\Tank 2\TXT\readme.txt" />

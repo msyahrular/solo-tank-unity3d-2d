@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1912335680135785039}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 8495409107397353351}
   - component: {fileID: 8495409107397353350}
   - component: {fileID: 7939187719391087793}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tank
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144,7 +144,19 @@ MonoBehaviour:
   health: 0
   OnDead:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8495409107397353349}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnHealthChange:
     m_PersistentCalls:
       m_Calls: []
@@ -164,7 +176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8495409107547839037}
   - component: {fileID: 8495409107547839038}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TankTurretParent
   m_TagString: Untagged
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
@@ -210,7 +222,7 @@ GameObject:
   - component: {fileID: 8495409108748844166}
   - component: {fileID: 8495409108748844160}
   - component: {fileID: 8495409108748844167}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TankBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -268,8 +280,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 737975799
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a1ac49c634af93f429cc2962b1751cf5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -295,10 +307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb2d: {fileID: 0}
-  maxSpeed: 70
-  rotationSpeed: 200
-  acceleration: 70
-  deacceleration: 50
+  movementData: {fileID: 0}
 --- !u!1 &8495409109117879530
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +319,8 @@ GameObject:
   - component: {fileID: 8495409109117879531}
   - component: {fileID: 8495409109117879525}
   - component: {fileID: 8495409109117879524}
-  m_Layer: 0
+  - component: {fileID: 2998743184284302710}
+  m_Layer: 7
   m_Name: Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -369,9 +379,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 737975799
+  m_SortingLayer: 5
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: a68c56d262eed8b4988202047c1a8e69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -395,6 +405,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 620c4100f54ceec4991150fecb8ea928, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turretBarrels: []
-  bulletPrefabs: {fileID: 3103180989367860219, guid: 33db0803fd3296445b57e47f9cdd07e6, type: 3}
-  reloadDelay: 1
+  turretBarrels:
+  - {fileID: 1912335680135785039}
+  turretData: {fileID: 11400000, guid: 01b6a03731afc3c45ae0b74852e2fcf0, type: 2}
+  bulletPoolCount: 10
+--- !u!114 &2998743184284302710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8495409109117879530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 443fc1e391080924ea45bcbf343e5577, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToPool: {fileID: 3103180989367860219, guid: 33db0803fd3296445b57e47f9cdd07e6, type: 3}
+  poolSize: 2
+  spawnedObjectsParent: {fileID: 0}
