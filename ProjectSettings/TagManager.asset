@@ -11,12 +11,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Bullet
+  - Agent
+  - Hitable
+  - ObstacleMovement
+  - Player
+  - Enemy
   - 
   - 
   - 
@@ -40,4 +40,34 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 598193651
+    locked: 0
+  - name: DetailsBottom
+    uniqueID: 801410331
+    locked: 0
+  - name: Obstacle
+    uniqueID: 2021023755
+    locked: 0
+  - name: Enemies
+    uniqueID: 1382297163
+    locked: 0
+  - name: Player
+    uniqueID: 737975799
+    locked: 0
+  - name: Item
+    uniqueID: 4156819485
+    locked: 0
+  - name: Bullet
+    uniqueID: 855313479
+    locked: 0
+  - name: SpecialEffect
+    uniqueID: 3286081765
+    locked: 0
+  - name: DetailsTop
+    uniqueID: 1859008189
+    locked: 0
+  - name: UI
+    uniqueID: 3778712213
     locked: 0
