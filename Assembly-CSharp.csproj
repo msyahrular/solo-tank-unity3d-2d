@@ -13,7 +13,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
@@ -37,26 +37,26 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\Turret.cs" />
+     <Compile Include="Assets\Script\Ai\AiPatrolPathBehaviour.cs" />
      <Compile Include="Assets\Script\Ai\AiDetector.cs" />
      <Compile Include="Assets\Script\gerak.cs" />
      <Compile Include="Assets\Script\Bullet.cs" />
      <Compile Include="Assets\Script\DestroyUtil.cs" />
      <Compile Include="Assets\Script\DataSO\BulletData.cs" />
      <Compile Include="Assets\Script\DataSO\TurretData.cs" />
+     <Compile Include="Assets\Script\Ai\AiPatrolStaticBehaviour.cs" />
      <Compile Include="Assets\Script\TankMover.cs" />
      <Compile Include="Assets\Script\DataSO\TankMovementData.cs" />
      <Compile Include="Assets\Script\Damageable.cs" />
+     <Compile Include="Assets\Script\Ai\PatrolPath.cs" />
      <Compile Include="Assets\Script\DestroyIfDisabled.cs" />
      <Compile Include="Assets\Script\TankController.cs" />
+     <Compile Include="Assets\Script\Ai\AiShootBehaviour.cs" />
      <Compile Include="Assets\Script\ObjectPool.cs" />
+     <Compile Include="Assets\Script\Ai\AIBehaviour.cs" />
+     <Compile Include="Assets\Script\Ai\DefaultEnemyAi.cs" />
      <Compile Include="Assets\Script\PlayerInput.cs" />
      <Compile Include="Assets\Script\AimTurret.cs" />
-     <Compile Include="Assets\Script\Ai\DefaultEnemyAi.cs" />
-     <Compile Include="Assets\Script\Ai\AIBehaviour.cs" />
-     <Compile Include="Assets\Script\Ai\AiPatrolStaticBehaviour.cs" />
-     <Compile Include="Assets\Script\Ai\AiShootBehaviour.cs" />
-     <Compile Include="Assets\Script\Ai\PatrolPath.cs" />
-     <Compile Include="Assets\Script\Ai\AiPatrolPathBehaviour.cs" />
      <None Include="Assets\Scenes\tank 1\TXT\readme.txt" />
      <None Include="Assets\Scenes\Tank 2\TXT\license.txt" />
      <None Include="Assets\Scenes\Tank 2\TXT\readme.txt" />
