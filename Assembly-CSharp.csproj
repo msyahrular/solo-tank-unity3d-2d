@@ -47,12 +47,14 @@
      <Compile Include="Assets\Script\DataSO\TurretData.cs" />
      <Compile Include="Assets\Script\Ai\AiPatrolStaticBehaviour.cs" />
      <Compile Include="Assets\Script\TankMover.cs" />
+     <Compile Include="Assets\Script\DisableUtil.cs" />
      <Compile Include="Assets\Script\DataSO\TankMovementData.cs" />
      <Compile Include="Assets\Script\Damageable.cs" />
      <Compile Include="Assets\Script\DestroyOnAudioFinish.cs" />
      <Compile Include="Assets\Script\Ai\PatrolPath.cs" />
      <Compile Include="Assets\Script\DestroyIfDisabled.cs" />
      <Compile Include="Assets\Script\TankController.cs" />
+     <Compile Include="Assets\Script\UiFollowTank.cs" />
      <Compile Include="Assets\Script\Ai\AiShootBehaviour.cs" />
      <Compile Include="Assets\Script\ObjectPool.cs" />
      <Compile Include="Assets\Script\Ai\AIBehaviour.cs" />
@@ -60,7 +62,8 @@
      <Compile Include="Assets\Script\ObjectGeneratorRandomPositionUtil.cs" />
      <Compile Include="Assets\Script\PlayerInput.cs" />
      <Compile Include="Assets\Script\AimTurret.cs" />
-     <Compile Include="Assets\Script\DisableUtil.cs" />
+     <Compile Include="Assets\Script\EngineAudio.cs" />
+     <Compile Include="Assets\Script\TrackMarksSpawner.cs" />
      <None Include="Assets\Scenes\tank 1\TXT\readme.txt" />
      <None Include="Assets\Scenes\Tank 2\TXT\license.txt" />
      <None Include="Assets\Scenes\Tank 2\TXT\readme.txt" />

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class TankMover : MonoBehaviour
 {
@@ -11,21 +12,23 @@ public class TankMover : MonoBehaviour
     private float currentSpeed = 0;
     private float currentForewardDirection = 1;
 
+    public UnityEvent<float> OnSpeedChange = new UnityEvent<float>();
+
     private void Awake()
     {
         rb2d = GetComponentInParent<Rigidbody2D>();
     }  
 
-     public void Move(Vector2 movementVector)
-     {
+    public void Move(Vector2 movementVector)
+    {
         this.movementVector = movementVector;
         CalculateSpeed(movementVector);
+        OnSpeedChange?.Invoke(this.movementVector.magnitude);
         if(movementVector.y > 0)
             currentForewardDirection = 1;
         else if(movementVector.y < 0)
-            currentForewardDirection = 0;
-              
-     }   
+            currentForewardDirection = -1;
+    }   
 
     private void CalculateSpeed(Vector2 movementVector)
     {

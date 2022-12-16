@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5e340c797629334793bd2e91c448530, type: 3}
   m_Name: PlayerTankMovementData 1
   m_EditorClassIdentifier: 
-  maxSpeed: 120
+  maxSpeed: 70
   rotationSpeed: 200
   acceleration: 70
-  deacceleration: 50
+  deacceleration: 90

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c7ff15edb97b684fa4396e80f5abd2a, type: 3}
   m_Name: SlowBulletData
   m_EditorClassIdentifier: 
-  speed: 5
-  damage: 10
+  speed: 3
+  damage: 15
   maxDistance: 5

@@ -30,7 +30,7 @@ public class PlayerInput : MonoBehaviour
 
     private void GetShootingInput()
     {
-         if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0))
         {
             OnShoot?.Invoke();
         }
@@ -50,7 +50,7 @@ public class PlayerInput : MonoBehaviour
     }
     private void GetBodyMovement()
     {
-       Vector2 movementVector = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-       OnMoveBody?.Invoke(movementVector.normalized);
+        Vector2 movementVector = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        OnMoveBody?.Invoke(movementVector.normalized);
     }
 }
