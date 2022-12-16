@@ -37,7 +37,7 @@ public class Turret : MonoBehaviour
         if (canShoot == false)
         {
             currentDelay -= Time.deltaTime;
-            OnReloading?.Invoke(currentDelay);
+            OnReloading?.Invoke(currentDelay/ turretData.reloadDelay);
             if (currentDelay <= 0)
             {
                 canShoot = true;
