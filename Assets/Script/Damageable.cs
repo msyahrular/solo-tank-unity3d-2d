@@ -7,7 +7,7 @@ public class Damageable : MonoBehaviour
 {
     public int MaxHealth = 100;
     [SerializeField]
-    private int health;
+    private int health = 0;
 
     public int Health
     {
@@ -25,7 +25,8 @@ public class Damageable : MonoBehaviour
 
     private void Start()
     {
-        Health = MaxHealth;
+        if (health == 0)
+            Health = MaxHealth;
     }
 
     internal void Hit(int damagePoints)

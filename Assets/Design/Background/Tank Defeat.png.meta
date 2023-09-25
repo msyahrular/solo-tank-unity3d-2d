@@ -1,0 +1,817 @@
+fileFormatVersion: 2
+guid: 83df9c3e4c852d1429bb05e0bac49121
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7531566223005110256
+    second: Tank Defeat_0
+  - first:
+      213: 3216217330570175541
+    second: Tank Defeat_1
+  - first:
+      213: -2228985445541173083
+    second: Tank Defeat_2
+  - first:
+      213: -970321045207800330
+    second: Tank Defeat_3
+  - first:
+      213: 6036435868903485422
+    second: Tank Defeat_4
+  - first:
+      213: -1852144816078126615
+    second: Tank Defeat_5
+  - first:
+      213: 3210372496185287699
+    second: Tank Defeat_6
+  - first:
+      213: 3859486414372477135
+    second: Tank Defeat_7
+  - first:
+      213: -6528850691262895776
+    second: Tank Defeat_8
+  - first:
+      213: -8856493926636474771
+    second: Tank Defeat_9
+  - first:
+      213: 5451649114061695710
+    second: Tank Defeat_10
+  - first:
+      213: 8371388642297043507
+    second: Tank Defeat_11
+  - first:
+      213: -6023210597766884640
+    second: Tank Defeat_12
+  - first:
+      213: -6264927030291764698
+    second: Tank Defeat_13
+  - first:
+      213: -205868975125495431
+    second: Tank Defeat_14
+  - first:
+      213: 4040070718530643343
+    second: Tank Defeat_15
+  - first:
+      213: 5079512254604961205
+    second: Tank Defeat_16
+  - first:
+      213: -7089877885727048719
+    second: Tank Defeat_17
+  - first:
+      213: 5604431672088784512
+    second: Tank Defeat_18
+  - first:
+      213: 2535238348473923329
+    second: Tank Defeat_19
+  - first:
+      213: 173735743607362535
+    second: Tank Defeat_20
+  - first:
+      213: -7562515183875022534
+    second: Tank Defeat_21
+  - first:
+      213: -3672968816708268641
+    second: Tank Defeat_22
+  - first:
+      213: -2413358376438712104
+    second: Tank Defeat_23
+  - first:
+      213: -7563766876384771095
+    second: Tank Defeat_24
+  - first:
+      213: 1302260265056946773
+    second: Tank Defeat_25
+  - first:
+      213: 858024103180490416
+    second: Tank Defeat_26
+  - first:
+      213: -4112976479268612906
+    second: Tank Defeat_27
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tank Defeat_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 885
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffcc8c639f758860800000000000000
+      internalID: 7531566223005110256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_1
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 885
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53427153f9c42ac20800000000000000
+      internalID: 3216217330570175541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_2
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 885
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8a0050c8d0111e0800000000000000
+      internalID: -2228985445541173083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_3
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 885
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5ad4e762ab882f0800000000000000
+      internalID: -970321045207800330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_4
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 885
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef2b6bb07ab5c350800000000000000
+      internalID: 6036435868903485422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_5
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 885
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e105155a1cdb46e0800000000000000
+      internalID: -1852144816078126615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_6
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 885
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314eec7a6c88d8c20800000000000000
+      internalID: 3210372496185287699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 590
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc81e180276af8530800000000000000
+      internalID: 3859486414372477135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_8
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 590
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06926bb33ecd465a0800000000000000
+      internalID: -6528850691262895776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_9
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 590
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ead6b82b9671580800000000000000
+      internalID: -8856493926636474771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_10
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 590
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda68b33cf528ab40800000000000000
+      internalID: 5451649114061695710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_11
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 590
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33adadcdd952d2470800000000000000
+      internalID: 8371388642297043507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_12
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 590
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e29cb8afd1496ca0800000000000000
+      internalID: -6023210597766884640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_13
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 590
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a67b71f028e09a0800000000000000
+      internalID: -6264927030291764698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 295
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9710f53024b942df0800000000000000
+      internalID: -205868975125495431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_15
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 295
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85e97dc9e6311830800000000000000
+      internalID: 4040070718530643343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_16
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 295
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5e8ffab7d0e7640800000000000000
+      internalID: 5079512254604961205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_17
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 295
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb775070a1bb9d90800000000000000
+      internalID: -7089877885727048719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_18
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 295
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08eecc689e0f6cd40800000000000000
+      internalID: 5604431672088784512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_19
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 295
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1077cbd78d9fe2320800000000000000
+      internalID: 2535238348473923329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_20
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 295
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e351820dbb396200800000000000000
+      internalID: 173735743607362535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31a1a8128c8c0790800000000000000
+      internalID: -7562515183875022534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_22
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 0
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d4409425ef60dc0800000000000000
+      internalID: -3672968816708268641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_23
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 0
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d838a8d757028ed0800000000000000
+      internalID: -2413358376438712104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_24
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 0
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e34839b91a180790800000000000000
+      internalID: -7563766876384771095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_25
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 0
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a43d7bfce821210800000000000000
+      internalID: 1302260265056946773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_26
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 0
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6dbc6306058eb00800000000000000
+      internalID: 858024103180490416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tank Defeat_27
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 0
+        width: 642
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d458affea5cbe6c0800000000000000
+      internalID: -4112976479268612906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

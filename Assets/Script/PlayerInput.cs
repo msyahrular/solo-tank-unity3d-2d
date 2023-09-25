@@ -20,7 +20,7 @@ public class PlayerInput : MonoBehaviour
     }
 
     //Update is called once per frame
-   void Update()
+    void Update()
     {
         GetBodyMovement();
         GetTurretMovement();
@@ -30,7 +30,7 @@ public class PlayerInput : MonoBehaviour
 
     private void GetShootingInput()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0))//GetMouseButtonDown(0))
         {
             OnShoot?.Invoke();
         }
